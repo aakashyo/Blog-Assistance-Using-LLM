@@ -1,0 +1,50 @@
+# Core Framework
+streamlit>=1.28.0
+
+# LlamaIndex Core
+llama-index>=0.9.0
+llama-index-llms-openai>=0.1.0
+llama-index-llms-azure-openai>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+
+# Configuration and Data Handling
+PyYAML>=6.0
+pathlib2>=2.3.7
+
+# Azure and OpenAI Integration
+openai>=1.0.0
+azure-identity>=1.15.0
+
+# HuggingFace Dependencies
+transformers>=4.35.0
+torch>=2.0.0
+sentence-transformers>=2.2.2
+
+# Additional Dependencies for Embeddings
+tokenizers>=0.15.0
+huggingface-hub>=0.19.0
+
+# Async Support (if needed)
+nest-asyncio>=1.5.8
+
+# Web Scraping (if HTML processing is needed)
+requests-html>=0.10.0
+html2text>=2020.1.16
+
+# Utility Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Logging and Monitoring
+python-dotenv>=1.0.0
+
+# Optional: For better performance
+faiss-cpu>=1.7.4
+
+# Optional: For PDF processing (if needed)
+pypdf>=3.17.0
+pymupdf>=1.23.0
+
+# Optional: For document processing
+python-docx>=1.1.0
+openpyxl>=3.1.0
